@@ -1,0 +1,77 @@
+.HomePage {
+    position: relative; /* Необхідно для позиціонування псевдоелемента */
+    width: 100%;
+    height: 70vh;
+    padding-top: 150px;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden; /* Запобігає виходу псевдоелемента за межі контейнера */
+}
+
+.HomePage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://a.storyblok.com/f/86518/7952x4503/258fd07c3a/shutterstock_1695842029.jpg/m/1178x470/filters:format(webp)');
+    background-size: cover; /* Зображення заповнить весь контейнер, зберігаючи пропорції */
+    background-position: center; /* Центрує зображення */
+    z-index: 1; /* Помістити за текстом */
+}
+
+.HomePage::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Напівпрозоре затемнення */
+    z-index: 2; /* Накладається поверх зображення */
+}
+
+.HomePage-name,
+.p-home,
+.call-to-action {
+    position: relative; /* Залишає текст на передньому плані */
+    z-index: 3; /* Залишає текст на передньому плані */
+}
+
+.HomePage-name {
+    margin: 0px 300px 0px 300px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.p-home {
+    text-align: center;
+    font-size: 2em;
+    margin: 50px 250px 50px 250px;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.cta-button {
+    background-color: #4a90e2; /* Синій фон */
+    color: #ffffff; /* Текст */
+    border: none; /* Без контуру */
+    border-radius: 5px; /* Закруглені кути */
+    padding: 10px 15px; /* Внутрішній відступ */
+    cursor: pointer; /* Змінює курсор при наведенні */
+    font-size: 16px; /* Розмір шрифту */
+    transition: background-color 0.3s ease; /* Плавна зміна кольору */
+}
+
+.cta-button:hover {
+    background-color: #357ab8; /* Темніший відтінок при наведенні */
+}
+
+.cta-button:active {
+    background-color: #2c5a8a; /* Ще темніший відтінок при натисканні */
+}

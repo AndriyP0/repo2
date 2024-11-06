@@ -1,0 +1,27 @@
+.about-us-section-header {
+    border-bottom: 1px solid #ccc; /* Легка лінія внизу */
+    display: flex; /* Використання Flexbox */
+    justify-content: space-around; /* Рівномірний розподіл кнопок */
+    padding: 20px ; /* Внутрішні відступи */
+    text-align: center; /* Центрування тексту */
+
+}
+
+.UsBtn {
+    background-color: #4a90e2; /* Синій фон */
+    color: #ffffff; /* Текст */
+    border: none; /* Без контуру */
+    border-radius: 5px; /* Закруглені кути */
+    padding: 10px 15px; /* Внутрішній відступ */
+    cursor: pointer; /* Змінює курсор при наведенні */
+    font-size: 18px; /* Розмір шрифту */
+    transition: background-color 0.3s ease; /* Плавна зміна кольору */
+}
+
+.UsBtn:hover {
+    background-color: #357ab8; /* Темніший відтінок при наведенні */
+}
+
+.UsBtn:active {
+    background-color: #2c5a8a; /* Ще темніший відтінок при натисканні */
+}

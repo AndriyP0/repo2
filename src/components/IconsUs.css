@@ -1,0 +1,17 @@
+.icon{
+    font-size: 80px;
+    margin-bottom: 5px; /* Відступ між іконкою та текстом */
+    color: #4a90e2; /* Колір іконки */
+}
+.p-icon{
+    font-size: 16px; /* Розмір тексту */
+    color: #666; /* Колір тексту */
+    max-width: 200px; /* Максимальна ширина тексту */
+    margin: 0 auto; /* Центрування тексту */
+}
+.procces{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 44px ;
+}

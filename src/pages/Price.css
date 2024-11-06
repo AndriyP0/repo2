@@ -1,0 +1,46 @@
+.detailed-price-list-container {
+    margin: 20px;
+    text-align: center; /* Центрування заголовка */
+}
+
+.price-table {
+    width: 100%; /* Ширина таблиці */
+    border-collapse: collapse; /* Прибирає подвійні контури */
+}
+
+.price-table th, .price-table td {
+    border: 1px solid #ccc; /* Легкий контур для клітинок */
+    padding: 10px; /* Внутрішній відступ */
+    text-align: center; /* Центрування тексту */
+    width: 300px;
+}
+
+.price-table th {
+    background-color: #f0f0f0; /* Світло-сірий фон для заголовка */
+    color: #333; /* Темно-сірий колір тексту */
+}
+
+.price-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Світло-сірий фон для парних рядків */
+}
+
+.price-table tr:hover {
+    background-color: #f1f1f1; /* Світліший фон при наведенні */
+}
+.namePrice {
+    background-color: #f0f0f0; /* Світло-сірий фон для заголовка */
+    width: 100%; /* Займає всю ширину */
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; /* Центрує текст */
+    padding: 10px 0; /* Внутрішні відступи для вертикального центрування */
+    box-sizing: border-box; /* Включає padding у загальну ширину */
+}
+.price-h1{
+    background-color: #4a90e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

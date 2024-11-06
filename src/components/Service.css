@@ -1,0 +1,54 @@
+.catalog-item {
+    display: flex;
+    flex-direction: column; /* Вертикальне вирівнювання елементів */
+    justify-content: space-between; /* Розподіл простору між елементами */
+    margin-top: 20px; /* Відстань зверху */
+    width: calc(31% - 10px); /* Ширина квадратика з урахуванням відступів */
+    margin-bottom: 10px; /* Відстань між рядами */
+    background-color: #f0f0f0; /* Світло-сірий фон для квадратиків */
+    border: 1px solid #ccc; /* Легкий контур */
+    border-radius: 8px; /* Закруглені кути */
+    padding: 10px; /* Внутрішній відступ */
+    text-align: center; /* Центрування тексту */
+    /*height: 100%; !* Займає всю висоту контейнера *!*/
+    height: 600px; /* Встановіть бажану висоту */
+}
+
+.catalog-item img {
+    width: 100%; /* Зображення заповнює всю ширину квадратика */
+    height: 300px; /* Фіксована висота для всіх зображень */
+    object-fit: cover; /* Зберігає пропорції зображення, обрізає зайве */
+}
+
+.catalog-item h1 {
+    color: #333; /* Темно-сірий колір тексту */
+    margin: 10px 0; /* Відстань зверху і знизу */
+    font-size: 28px; /* Розмір заголовка */
+}
+
+.catalog-item p {
+    font-size: 18px; /* Збільшення розміру шрифту для опису */
+    margin: 10px 0; /* Відстань зверху і знизу */
+    flex-grow: 1; /* Дозволяє опису займати доступний простір */
+}
+
+.catalog-item button {
+    background-color: #4a90e2; /* Синій фон */
+    color: white; /* Білий текст */
+    border: none; /* Без контуру */
+    border-radius: 5px; /* Закруглені кути */
+    padding: 10px 15px; /* Внутрішній відступ */
+    cursor: pointer; /* Змінює курсор при наведенні */
+    font-size: 16px; /* Розмір шрифту */
+    margin-top: 10px; /* Відстань зверху */
+    align-self: center; /* Центрування кнопки */
+    transition: background-color 0.3s ease; /* Плавна зміна кольору */
+}
+
+.catalog-item button:hover {
+    background-color: #357ab8; /* Темніший відтінок при наведенні */
+}
+
+.catalog-item button:active {
+    background-color: #2c5a8a; /* Ще темніший відтінок при натисканні */
+}

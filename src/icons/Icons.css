@@ -1,0 +1,12 @@
+.icon-container {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity:0.9;
+margin-right: 10px;
+}
+
+.icon-container:hover {
+    transform: scale(1.2); /* Збільшення при наведенні */
+    opacity: 1; /* Повна непрозорість при наведенні */
+}

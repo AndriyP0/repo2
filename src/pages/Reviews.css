@@ -1,0 +1,46 @@
+.reviews-container {
+    width: 100%;
+    padding: 20px;
+    text-align: center; /* Вирівнювання тексту по центру */
+}
+
+.reviews-scroll {
+    display: flex;
+    overflow-x: auto; /* Дозволяє горизонтальний скрол */
+    padding: 10px 0;
+}
+
+.review-item {
+    min-width: 350px; /* Збільшення ширини блоку відгуку */
+    margin-right: 20px; /* Відступ між відгуками */
+    padding: 20px; /* Збільшення відступу */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Анімація при наведенні */
+}
+
+.review-item:hover {
+    transform: scale(1.05); /* Збільшення елемента при наведенні */
+}
+
+.review-header {
+    display: flex;
+    align-items: center; /* Вирівнювання елементів по вертикалі */
+    justify-content: space-between; /* Розміщення елементів по краях */
+}
+
+.stars {
+    display: flex;
+}
+
+.star {
+    color: #FFD700; /* Золотистий колір для зірок */
+    margin-left: 2px; /* Відступ між зірками */
+}
+
+.review-text {
+    font-size: 1.1em; /* Збільшення розміру тексту */
+    margin-top: 10px; /* Відступ зверху */
+}

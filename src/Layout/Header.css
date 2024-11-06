@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    background-color: silver;
+    box-shadow: 0 4px 8px 0 silver;
+    z-index: 10;
+    align-items: center; /* Центрує по вертикалі */
+    padding: 5px; /* Відступи */
+    justify-content: space-between; /* Розподіл елементів між краями */
+}
+.header-home {
+    display: flex; /* Використовуємо flexbox для вирівнювання */
+    align-items: center; /* Вертикальне вирівнювання */
+    gap: 10px; /* Відстань між іконкою та назвою */
+}
+    svg {
+        color: #4a90e2; /* Синій колір для іконки */
+        font-size: 36px; /* Розмір іконки */
+    }
+
+.CompanyName {
+    font-size: 20px; /* Зменшений розмір шрифту */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px; /* Відступ зліва */
+    color: #2c5a8a;
+    transition: color 0.5s ease; /* Плавна зміна кольору */
+}
+
+.headerDiv {
+    display: flex;
+    width: 400px;
+    background-color: silver;
+    box-shadow: 0 4px 8px 0 silver;
+    z-index: 10;
+    align-items: center; /* Центрує по вертикалі */
+    padding: 5px; /* Відступи */
+    justify-content: space-between; /* Розподіл елементів між краями */
+}
